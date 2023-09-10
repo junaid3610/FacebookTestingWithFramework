@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Facebook.QA.Testcases.FB_Testcases">
+      <class name="Testcases.SignupTestcases">
         <methods>
-          <include name="loginToApplication"/>
-          <include name="browserinitialization"/>
+          <include name="ClickOnMaleButton"/>
+          <include name="driverInitialization"/>
+          <include name="Suit1"/>
         </methods>
-      </class> <!-- com.Facebook.QA.Testcases.FB_Testcases -->
+      </class> <!-- Testcases.SignupTestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
