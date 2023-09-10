@@ -28,7 +28,7 @@ public class ChromeBrowser {
 		driver.manage().window().maximize();
 	// to get the title	
 		String title = driver.getTitle();
-		System.out.println(title);
+		System.out.println("Title of page => "+title);
 		return driver;
 	
 	}
