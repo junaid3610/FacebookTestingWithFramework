@@ -28,7 +28,8 @@ public class ChromeBrowser {
 		opt.addArguments("--remote-allow-origins=*");		
 		driver = new ChromeDriver(opt);
 		driver.get("https://www.facebook.com/");	
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		return driver;
 	}
@@ -55,13 +56,14 @@ public class ChromeBrowser {
 					
 	}
 	
-//	// to nevigate back, this will navigate after every class 
-//	@AfterSuite
-//	public void navigate()
-//	{
-//		driver.navigate().back();
-//		Reporter.log("This is navigate back Method");
-//	}
+	// to nevigate back, this will navigate after every class 
+	@AfterSuite
+	public void navigate()
+	{
+		driver.navigate().back();
+		System.out.println("Suite 1 is completed");
+		Reporter.log("This is navigate back Method");
+	}
 
 	
 	

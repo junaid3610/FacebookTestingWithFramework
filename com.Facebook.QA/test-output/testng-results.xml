@@ -11,74 +11,74 @@
       <![CDATA[This is navigate back Method]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-09-11T11:20:03 IST" name="Default suite" finished-at="2023-09-11T11:20:27 IST" duration-ms="23462">
+  <suite started-at="2023-09-11T11:39:18 IST" name="Default suite" finished-at="2023-09-11T11:39:30 IST" duration-ms="12210">
     <groups>
     </groups>
-    <test started-at="2023-09-11T11:20:03 IST" name="Default test" finished-at="2023-09-11T11:20:27 IST" duration-ms="23462">
+    <test started-at="2023-09-11T11:39:18 IST" name="Default test" finished-at="2023-09-11T11:39:30 IST" duration-ms="12210">
       <class name="Testcases.SignupTestcases">
-        <test-method is-config="true" signature="Suit1()[pri:0, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:20:03 IST" name="Suit1" finished-at="2023-09-11T11:20:03 IST" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="Suit1()[pri:0, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:39:18 IST" name="Suit1" finished-at="2023-09-11T11:39:18 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Suit1 -->
-        <test-method is-config="true" signature="driverInitialization()[pri:0, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:20:03 IST" name="driverInitialization" finished-at="2023-09-11T11:20:21 IST" duration-ms="17533" status="PASS">
+        <test-method is-config="true" signature="driverInitialization()[pri:0, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:39:18 IST" name="driverInitialization" finished-at="2023-09-11T11:39:27 IST" duration-ms="8530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverInitialization -->
-        <test-method signature="ClickonNewAccount()[pri:1, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:20:21 IST" name="ClickonNewAccount" finished-at="2023-09-11T11:20:21 IST" duration-ms="297" status="PASS">
+        <test-method signature="ClickonNewAccount()[pri:1, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:39:27 IST" name="ClickonNewAccount" finished-at="2023-09-11T11:39:27 IST" duration-ms="294" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[this is for performing click on Create New Account]]>
             </line>
           </reporter-output>
         </test-method> <!-- ClickonNewAccount -->
-        <test-method signature="FirstName()[pri:2, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:20:21 IST" name="FirstName" finished-at="2023-09-11T11:20:23 IST" duration-ms="1312" status="PASS">
+        <test-method signature="FirstName()[pri:2, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:39:27 IST" name="FirstName" finished-at="2023-09-11T11:39:28 IST" duration-ms="1038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstName -->
-        <test-method signature="LastName()[pri:3, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:20:23 IST" name="LastName" finished-at="2023-09-11T11:20:23 IST" duration-ms="438" status="PASS">
+        <test-method signature="LastName()[pri:3, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:39:28 IST" name="LastName" finished-at="2023-09-11T11:39:28 IST" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LastName -->
-        <test-method signature="EmailAddress()[pri:4, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:20:23 IST" name="EmailAddress" finished-at="2023-09-11T11:20:23 IST" duration-ms="413" status="PASS">
+        <test-method signature="EmailAddress()[pri:4, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:39:28 IST" name="EmailAddress" finished-at="2023-09-11T11:39:29 IST" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmailAddress -->
-        <test-method signature="Passwords()[pri:5, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:20:23 IST" name="Passwords" finished-at="2023-09-11T11:20:24 IST" duration-ms="217" status="PASS">
+        <test-method signature="Passwords()[pri:5, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:39:29 IST" name="Passwords" finished-at="2023-09-11T11:39:29 IST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Passwords -->
-        <test-method signature="SelectDay()[pri:6, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:20:24 IST" name="SelectDay" finished-at="2023-09-11T11:20:24 IST" duration-ms="309" status="PASS">
+        <test-method signature="SelectDay()[pri:6, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:39:29 IST" name="SelectDay" finished-at="2023-09-11T11:39:29 IST" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectDay -->
-        <test-method signature="SelectMonth()[pri:7, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:20:24 IST" name="SelectMonth" finished-at="2023-09-11T11:20:24 IST" duration-ms="243" status="PASS">
+        <test-method signature="SelectMonth()[pri:7, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:39:29 IST" name="SelectMonth" finished-at="2023-09-11T11:39:29 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectMonth -->
-        <test-method signature="SelectYear()[pri:8, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:20:24 IST" name="SelectYear" finished-at="2023-09-11T11:20:25 IST" duration-ms="765" status="PASS">
+        <test-method signature="SelectYear()[pri:8, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:39:29 IST" name="SelectYear" finished-at="2023-09-11T11:39:30 IST" duration-ms="657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectYear -->
-        <test-method signature="ClickOnMaleButton()[pri:9, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:20:25 IST" name="ClickOnMaleButton" finished-at="2023-09-11T11:20:25 IST" duration-ms="109" status="PASS">
+        <test-method signature="ClickOnMaleButton()[pri:9, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:39:30 IST" name="ClickOnMaleButton" finished-at="2023-09-11T11:39:30 IST" duration-ms="366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnMaleButton -->
-        <test-method signature="CLickOnSignUpButton()[pri:10, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:20:25 IST" name="CLickOnSignUpButton" finished-at="2023-09-11T11:20:27 IST" duration-ms="1433" status="PASS">
+        <test-method signature="CLickOnSignUpButton()[pri:10, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:39:30 IST" name="CLickOnSignUpButton" finished-at="2023-09-11T11:39:30 IST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CLickOnSignUpButton -->
-        <test-method signature="Text()[pri:11, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:20:27 IST" name="Text" finished-at="2023-09-11T11:20:27 IST" duration-ms="170" status="PASS">
+        <test-method signature="Text()[pri:11, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:39:30 IST" name="Text" finished-at="2023-09-11T11:39:30 IST" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Text -->
-        <test-method signature="Title()[pri:12, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:20:27 IST" name="Title" finished-at="2023-09-11T11:20:27 IST" duration-ms="11" status="PASS">
+        <test-method signature="Title()[pri:12, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:39:30 IST" name="Title" finished-at="2023-09-11T11:39:30 IST" duration-ms="17" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[This is the Title of Page =>Facebook – log in or sign up]]>
             </line>
           </reporter-output>
         </test-method> <!-- Title -->
-        <test-method is-config="true" signature="navigate()[pri:0, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:20:27 IST" name="navigate" finished-at="2023-09-11T11:20:27 IST" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="navigate()[pri:0, instance:Testcases.SignupTestcases@1b6e1eff]" started-at="2023-09-11T11:39:31 IST" name="navigate" finished-at="2023-09-11T11:39:31 IST" duration-ms="34" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[This is navigate back Method]]>

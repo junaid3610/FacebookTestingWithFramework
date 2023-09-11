@@ -5,9 +5,9 @@
     <classes>
       <class name="Testcases.SignupTestcases">
         <methods>
+          <include name="ClickOnMaleButton"/>
           <include name="navigate"/>
           <include name="driverInitialization"/>
-          <include name="CLickOnSignUpButton"/>
           <include name="Suit1"/>
         </methods>
       </class> <!-- Testcases.SignupTestcases -->
