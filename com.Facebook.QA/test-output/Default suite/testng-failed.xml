@@ -5,6 +5,7 @@
     <classes>
       <class name="Testcases.SignupTestcases">
         <methods>
+          <include name="navigate"/>
           <include name="driverInitialization"/>
           <include name="CLickOnSignUpButton"/>
           <include name="Suit1"/>

@@ -1,5 +1,7 @@
 package Testcases;
 
+import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
 import Base.ChromeBrowser;
@@ -49,8 +51,7 @@ public class SignupTestcases extends CreatNewAccTestcase  {
 			SignupPage sp = new SignupPage(driver);
 			sp.selday();
 		}
-	
-		
+			
 	// Select Month Dropdown
 		@Test(priority = 7)
 	public void SelectMonth()
@@ -83,6 +84,21 @@ public class SignupTestcases extends CreatNewAccTestcase  {
 		sp.SignClk();
 		
 	}
+	
+	@Test(priority = 11)
+	public void Text()
+	{
+		SignupPage sp = new SignupPage(driver);
+		sp.Txt();	
+		
+	}
+	
+	
+		
+	
+	
+	// priority 12 completed.ready for 13
+	
 	
 	
 	

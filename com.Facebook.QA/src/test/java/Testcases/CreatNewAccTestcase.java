@@ -19,7 +19,15 @@ public class CreatNewAccTestcase extends ChromeBrowser {
 		
 	}
 	
-
+	
+	@Test(enabled = false)
+	public void EnterLoginEmail()
+	{
+		CreatNewAccPage sp = new CreatNewAccPage(driver);
+		sp.Logeml();
+		Reporter.log("this method will enter the Email on to username field ");
+		
+	}
 	
 	
 	

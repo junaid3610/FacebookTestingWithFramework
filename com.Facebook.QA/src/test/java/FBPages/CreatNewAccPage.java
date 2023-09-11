@@ -14,7 +14,9 @@ public class CreatNewAccPage  {
 	@FindBy(xpath="(//a[@role=\"button\"])[2]")
 	private WebElement creatbtn;
 
-
+	@FindBy(xpath="//input[@type=\"text\"]")
+	private WebElement LgEml;
+	
 	
 // -------------------------------	
  //initialization
@@ -29,6 +31,11 @@ public class CreatNewAccPage  {
 		creatbtn.click();
 	}
 	
+	
+	public void Logeml()
+	{
+		LgEml.sendKeys("abc@gmail.com");
+	}
 	
 	
 	

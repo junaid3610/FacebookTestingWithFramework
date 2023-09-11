@@ -44,6 +44,9 @@ public class SignupPage {
 	@FindBy(xpath="//button[@name=\"websubmit\"]")
 	private WebElement signclk; 
 	
+	// Take the Text
+	@FindBy(xpath="//div[@class=\"mbs _52lq fsl fwb fcb\"]")
+	private WebElement txt;
 	
 	
 	
@@ -106,6 +109,13 @@ public class SignupPage {
 	{
 		signclk.click();
 	}
+	
+	// signup gettext
+	public void Txt()
+	{
+		System.out.println(txt.getText());
+	}
+	
 	
 	
 	

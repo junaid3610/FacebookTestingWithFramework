@@ -6,7 +6,11 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
@@ -26,12 +30,14 @@ public class ChromeBrowser {
 		driver.get("https://www.facebook.com/");	
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-	// to get the title	
-		String title = driver.getTitle();
-		System.out.println("Title of page => "+title);
 		return driver;
-	
 	}
+	// to get the title	
+//		String title = driver.getTitle();
+//		System.out.println("Title of page => "+title);
+//		return driver;
+//	
+//	}
 	
 	@BeforeSuite
 	public void Suit1()
@@ -39,7 +45,24 @@ public class ChromeBrowser {
 		System.out.println("Suit 1 is Starting");
 	}
 	
+// to get the title of page	
+	@Test(priority = 12)
+	public void Title()
+	{
+		// to get the title				
+		String title = driver.getTitle();		
+		Reporter.log("This is the Title of Page =>"+ title);
+					
+	}
 	
+//	// to nevigate back, this will navigate after every class 
+//	@AfterSuite
+//	public void navigate()
+//	{
+//		driver.navigate().back();
+//		Reporter.log("This is navigate back Method");
+//	}
+
 	
 	
 	
