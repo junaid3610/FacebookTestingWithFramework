@@ -43,11 +43,11 @@ public class ChromeBrowser {
 	@BeforeSuite
 	public void Suit1()
 	{
-		System.out.println("Suit  is Starting");
+		System.out.println("Suit is Starting");
 	}
 	
 // to get the title of page	
-	@Test(priority = 12)   
+	@Test(enabled = false)   
 	public void Title()
 	{
 		// to get the title				

@@ -6,16 +6,33 @@ import FBPages.FBCareerPage;
 
 public class FBCareerTestcases extends FBLoginOrSignupTestcase {
 	
-	@Test(priority = 1)
+	// click on career link
+	@Test(priority = 6)
 	public void ClickonCareer()
 	{
 		FBCareerPage fbc = new FBCareerPage(driver);
-		fbc.careerclk();
-		
-		
+		fbc.careerclk();	
+	}
+	
+	@Test(enabled = false)
+	public void FindJobOnCareerPage()
+	{
+		FBCareerPage fbc = new FBCareerPage(driver);
+		fbc.findjob();
 	}
 	
 	
+	@Test(priority = 7)
+	public void CountTotalHeaderLinks()
+	{
+		FBCareerPage fbc = new FBCareerPage(driver);
+		fbc.Count();
+	}
+	
 	
 
+	
+	
+	
+	
 }

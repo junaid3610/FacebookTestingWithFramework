@@ -2,6 +2,7 @@ package FBPages;
 
 import java.util.List;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,11 +11,15 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
 public class FBLoginOrSignupPage {
+
+	
+	
 	//decleration
 // Send email to username field of login 	 
-	@FindBy(xpath="//input[@name=\"email\"]")
+	@FindBy(xpath="//input[@id=\"email\"]")
 	private WebElement emailad;
 
+	// click on more language + button
 	@FindBy(xpath="//a[@title=\"Show more languages\"]")
 	private WebElement plusbtn; 
 
@@ -33,8 +38,8 @@ public class FBLoginOrSignupPage {
 
 	
 // click on cancel button
-	@FindBy(xpath="(//span[@class=\"x1mp1tr5 x1f6kntn\"])[1]")
-	private WebElement cancelclick;
+//	@FindBy(xpath="//span[text()=\"Cancel\"]")
+//	private WebElement cancelclick;
 	
 	
 	
@@ -101,11 +106,11 @@ public class FBLoginOrSignupPage {
 	
 	
 	
-	// click on cancel button
-	public void cnclclik()
-	{
-		cancelclick.click();
-	}
+//	// click on cancel button
+//	public void cnclclik()
+//	{
+//		cancelclick.click();	
+//	}
 	
 	
 	

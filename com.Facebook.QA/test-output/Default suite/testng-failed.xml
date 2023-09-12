@@ -7,12 +7,8 @@
         <methods>
           <include name="navigate"/>
           <include name="driverInitialization"/>
-          <include name="ClickOnMoreLanguageButton"/>
-          <include name="EmailAddresstoLoginField"/>
-          <include name="ClickOnCancelButton"/>
-          <include name="Title"/>
+          <include name="CountTotalHeaderLinks"/>
           <include name="Suit1"/>
-          <include name="ClickOnCloseButton"/>
         </methods>
       </class> <!-- Testcases.FBCareerTestcases -->
     </classes>
