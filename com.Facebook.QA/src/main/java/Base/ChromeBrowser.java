@@ -43,11 +43,11 @@ public class ChromeBrowser {
 	@BeforeSuite
 	public void Suit1()
 	{
-		System.out.println("Suit 1 is Starting");
+		System.out.println("Suit  is Starting");
 	}
 	
 // to get the title of page	
-	@Test(priority = 12)
+	@Test(priority = 12)   
 	public void Title()
 	{
 		// to get the title				
@@ -57,7 +57,7 @@ public class ChromeBrowser {
 	}
 	
 	// to nevigate back, this will navigate after every class 
-	@AfterSuite
+	@AfterSuite(enabled = false)
 	public void navigate()
 	{
 		driver.navigate().back();

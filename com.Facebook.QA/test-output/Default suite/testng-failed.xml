@@ -3,14 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testcases.SignupTestcases">
+      <class name="Testcases.FBCareerTestcases">
         <methods>
-          <include name="ClickOnMaleButton"/>
           <include name="navigate"/>
           <include name="driverInitialization"/>
+          <include name="ClickOnMoreLanguageButton"/>
+          <include name="EmailAddresstoLoginField"/>
+          <include name="ClickOnCancelButton"/>
+          <include name="Title"/>
           <include name="Suit1"/>
+          <include name="ClickOnCloseButton"/>
         </methods>
-      </class> <!-- Testcases.SignupTestcases -->
+      </class> <!-- Testcases.FBCareerTestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
